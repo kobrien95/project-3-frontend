@@ -23,7 +23,7 @@ export default function CarDetail(props){
         <section>
             <h2>{selectedCar.name}</h2>
 
-            <span>Brand: {selectedCar.brand}</span>
+            <span>Make: {selectedCar.make}</span>
 
             <br />
 
