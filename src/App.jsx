@@ -10,8 +10,12 @@ import Landing from './components/Landing/Landing';
 import CarForm from './components/CarForm/CarForm';
 import CarList from './components/CarList/CarList';
 import CarPost from './components/CarPost/CarPost';
+// <<<<<<< frontend
 import CarImageUpload from'./components/CarImageUpload/CarImageUpload';
 import * as postService from './services/postsService';
+// =======
+// import * as postService from './services/carService'
+// >>>>>>> main
 
 import { UserContext } from './contexts/UserContext';
 

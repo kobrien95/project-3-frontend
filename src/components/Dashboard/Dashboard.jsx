@@ -16,7 +16,7 @@ const Dashboard = (props) => {
   const carLis = props.cars.map((car) => {
     return (
       <li key={car._id} onClick={() => props.setCar(car)}>
-        {car.brand}: {car.model}: {car.year}
+        {car.make}: {car.model}: {car.year}
       </li>
     );
   });
@@ -26,9 +26,9 @@ const Dashboard = (props) => {
       <h1>Welcome, {user.username}</h1>
       {carLis}
       <p>
-        This is the dashboard page where you can see a list of all the cars.
+      Welcome to my collection of cars..
         <li>
-          <Link to="/cars/new">Create Car</Link>
+          <Link to="/cars/new">Search Car</Link>
         </li>
       </p>
     </main>
